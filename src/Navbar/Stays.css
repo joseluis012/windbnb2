@@ -1,0 +1,35 @@
+.stays {
+    padding: 15px 10px;
+
+}
+
+.staysHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 29px;
+    color: black;
+    margin-left:55px ;
+    margin-bottom: 25px;
+}
+
+.staysList {
+    display: grid;
+    gap: 32px;
+    
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fill, 380px);
+}
+
+#numStays{
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
